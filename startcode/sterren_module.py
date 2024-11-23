@@ -15,8 +15,8 @@ def teken_ster(x, y, kleur="yellow"):
     turtle.fillcolor(kleur)
     turtle.begin_fill()
 
-    for _ in range(5):
+    for _ in range(4):
         turtle.forward(grootte)
-        turtle.right(144)
+        turtle.right(90)
 
     turtle.end_fill()
